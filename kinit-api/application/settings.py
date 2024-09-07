@@ -14,9 +14,11 @@ from fastapi.security import OAuth2PasswordBearer
 VERSION = "3.10.1"
 
 """安全警告: 不要在生产中打开调试运行!"""
+# TODO 修改
 DEBUG = True
 
 """是否开启演示功能：取消所有POST,DELETE,PUT操作权限"""
+# TODO 修改
 DEMO = False
 """演示功能白名单"""
 DEMO_WHITE_LIST_PATH = [

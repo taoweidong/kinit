@@ -11,6 +11,7 @@ Mysql 数据库配置项
 连接引擎官方文档：https://www.osgeo.cn/sqlalchemy/core/engines.html
 数据库链接配置说明：mysql+asyncmy://数据库用户名:数据库密码@数据库地址:数据库端口/数据库名称
 """
+# TODO 修改
 SQLALCHEMY_DATABASE_URL = "mysql+asyncmy://root:root@127.0.0.1:3306/kinit"
 
 """
@@ -18,6 +19,7 @@ Redis 数据库配置
 格式："redis://:密码@地址:端口/数据库名称"
 """
 REDIS_DB_ENABLE = True
+# TODO 修改
 REDIS_DB_URL = "redis://:@127.0.0.1:6379/1"
 
 """
@@ -26,6 +28,7 @@ MongoDB 数据库配置
 """
 MONGO_DB_ENABLE = True
 MONGO_DB_NAME = "kinit"
+# TODO 修改
 MONGO_DB_URL = f"mongodb://127.0.0.1:27017/?authSource={MONGO_DB_NAME}"
 
 
